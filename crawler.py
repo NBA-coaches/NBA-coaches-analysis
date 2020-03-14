@@ -50,7 +50,7 @@ def getCoachs(page):
 def makeCSV(name):
     if not os.path.exists('Data'):
         os.makedirs('Data')
-    file = open(name+'.csv', 'w+')
+    file = open(r'Data\\'+name+'.csv', 'w+')
     return file
 
 def append_list_as_row(file_name, values):
