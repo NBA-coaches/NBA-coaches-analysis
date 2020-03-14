@@ -23,8 +23,15 @@ def getTeams(soup):
         teamsList.append(a['href'][7:10])
     return teamsList
 
-def getSeasonPage(url, team, year):
-    return parseHTML(url+'/'+team+'/'+year+'.html')
+def getSeasonsList(soup):
+    seasonList = []
+    for row in soup.findAll('table')[0].tbody.findAll('tr'):
+        for a in row.findAll('th')[0]:
+            seasonList.append(a['href'][6:])
+    return seasonList
+
+def getSeasonPage(url):
+    return parseHTML(url)
 
 def getCoachs(page):
     if (page != None):
@@ -54,9 +61,10 @@ def makeCoachesDataSet(url):
     for team in teamsList:
         csvfile = makeCSV(team)
         csvfile.close()
-        for year in range(1946, 2019):
-            yearlist = [str(year)]
-            season = getSeasonPage(url, team, str(year))
+        seasonUrls = getSeasonsList(parseHTML(url+'/'+team))
+        for sea in seasonUrls:
+            yearlist = [sea[5:9]]
+            season = getSeasonPage(url+sea)
             if season != None:
                 coaches, balances = getCoachs(season)
                 for i in range(len(coaches)):
@@ -70,6 +78,5 @@ def makeCoachesDataSet(url):
 
 url = 'http://www.basketball-reference.com/teams'
 makeCoachesDataSet(url)
-
 
 
