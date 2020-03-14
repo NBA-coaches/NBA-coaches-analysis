@@ -74,8 +74,6 @@ def makeCoachesDataSet(url):
                     append_list_as_row(csvfile.name, yearlist)
 
 
-
-
 url = 'http://www.basketball-reference.com/teams'
 makeCoachesDataSet(url)
 
