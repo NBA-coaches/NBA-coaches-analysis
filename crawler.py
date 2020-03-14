@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup as bs
 import requests
 import re
 from csv import writer
+import os
 
 def urlRequest(url):
     req = requests.get(url)
@@ -47,6 +48,8 @@ def getCoachs(page):
         return None
 
 def makeCSV(name):
+    if not os.path.exists('Data'):
+        os.makedirs('Data')
     file = open(name+'.csv', 'w+')
     return file
 
