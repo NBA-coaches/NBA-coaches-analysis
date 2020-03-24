@@ -73,11 +73,7 @@ def makeCoachesDataSet(url):
                 for i in range(len(coaches)):
                     yearlist.append(coaches[i])
                     yearlist.append(balances[i])
-                    print(yearlist)
                     append_list_as_row(csvfile.name, yearlist)
 
-
-url = 'http://www.basketball-reference.com/teams'
-makeCoachesDataSet(url)
 
 
