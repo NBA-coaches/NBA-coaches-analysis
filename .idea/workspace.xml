@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="233fdfc3-8d7d-4d39-b14e-4b802f54ebf3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/ATL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/BOS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/CHA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/CHI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/CLE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DAL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DEN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DET.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GSW.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/HOU.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/IND.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Joind Data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/LAC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/LAL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MEM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MIA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MIL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MIN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/NJN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/NOH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/NYK.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/OKC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/ORL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/PHI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/PHO.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/POR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/SAC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/SAS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/TOR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/UTA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/WAS.csv" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DataValidate.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="80" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="NBA-coaches-analysis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\ntnel\PycharmProjects\NBA-coaches-analysis" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="NBA-coaches-analysis" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="NBA-coaches-analysis" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\ntnel\AppData\Roaming\Subversion</configuration>
+    <option name="sshConnectionType" value="PASSWORD" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="233fdfc3-8d7d-4d39-b14e-4b802f54ebf3" name="Default Changelist" comment="" />
+      <created>1583673159364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583673159364</updated>
+    </task>
+    <task id="LOCAL‎00001" summary="added crawler to master">
+      <created>1583673452524</created>
+      <option name="number" value="LOCAL‎00001" />
+      <option name="presentableId" value="LOCAL‎00001" />
+      <updated>1583673452524</updated>
+    </task>
+    <task id="LOCAL‎00002" summary="start validate">
+      <created>1584365944106</created>
+      <option name="number" value="LOCAL‎00002" />
+      <option name="presentableId" value="LOCAL‎00002" />
+      <updated>1584365944106</updated>
+    </task>
+    <task id="LOCAL‎00003" summary="start validate">
+      <created>1584373084539</created>
+      <option name="number" value="LOCAL‎00003" />
+      <option name="presentableId" value="LOCAL‎00003" />
+      <updated>1584373084539</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="GitHub Pull Requests" sideWeight="0.49867898" weight="0.32956153" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4980185" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4993395" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5019815" side_tool="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4993395" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added crawler to master" />
+    <MESSAGE value="start validate" />
+    <option name="LAST_COMMIT_MESSAGE" value="start validate" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DataValidate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
