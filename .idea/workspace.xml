@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="233fdfc3-8d7d-4d39-b14e-4b802f54ebf3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/ATL.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/BOS.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/CHA.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/CHI.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/CLE.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DAL.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DEN.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DET.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/GSW.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/HOU.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/IND.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Joind Data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/LAC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/LAL.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/MEM.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/MIA.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/MIL.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/MIN.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/NJN.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/NOH.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/NYK.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/OKC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/ORL.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PHI.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PHO.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/POR.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/SAC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/SAS.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/TOR.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/UTA.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/WAS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,6 +32,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/DataValidate.py" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
       </list>
     </option>
   </component>
@@ -80,7 +50,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -92,6 +61,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -148,7 +118,19 @@
       <option name="presentableId" value="LOCAL‎00003" />
       <updated>1584373084539</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎00004" summary="start validate">
+      <created>1585076465440</created>
+      <option name="number" value="LOCAL‎00004" />
+      <option name="presentableId" value="LOCAL‎00004" />
+      <updated>1585076465440</updated>
+    </task>
+    <task id="LOCAL‎00005" summary="start validate">
+      <created>1585076628918</created>
+      <option name="number" value="LOCAL‎00005" />
+      <option name="presentableId" value="LOCAL‎00005" />
+      <updated>1585076628918</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -163,10 +145,9 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="GitHub Pull Requests" sideWeight="0.49867898" weight="0.32956153" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -175,9 +156,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4980185" weight="0.32956153" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4993395" visible="true" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4980185" visible="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5019815" side_tool="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4993395" weight="0.32956153" />
+      <window_info anchor="bottom" id="GitHub Pull Requests" order="11" sideWeight="0.49867898" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -189,19 +171,20 @@
     <option name="LAST_COMMIT_MESSAGE" value="start validate" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DataValidate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DataValidate.py" />
     <entry file="file://$PROJECT_DIR$/crawler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
