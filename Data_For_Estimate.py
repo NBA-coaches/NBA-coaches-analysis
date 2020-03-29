@@ -36,6 +36,3 @@ def joinDataFileForVisual(path):
             dfs.append(df)
     joindDF = pd.concat(dfs)
     joindDF.to_csv(path+'/Visual DataFrame.csv')
-
-
-joinDataFileForVisual('Data')
