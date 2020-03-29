@@ -58,7 +58,7 @@ def joinDataFile(path):
     filesList = getDataFiles(path)
     dfs = []
     for file in filesList:
-        if 'Joined' not in file:
+        if 'Visual' not in file and 'Joined' not in file:
             df = cleanDataFile(path+'\\'+file)
             df = removeNAN(df)
             df = winLosCols(df)
