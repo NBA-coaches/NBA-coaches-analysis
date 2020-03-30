@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="233fdfc3-8d7d-4d39-b14e-4b802f54ebf3" name="Default Changelist" comment="start validate">
-      <change beforePath="$PROJECT_DIR$/.idea/FinalProj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FinalProj.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="233fdfc3-8d7d-4d39-b14e-4b802f54ebf3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Data analysis-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Data analysis-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Data analysis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_preperation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_preperation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_For_Estimate.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_For_Estimate.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_preperation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="60" column="57" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
+            <state relative-caret-position="1071">
+              <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -29,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Data_For_Estimate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="170">
+              <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -83,6 +80,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -94,7 +92,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,7 +194,19 @@
       <option name="presentableId" value="LOCAL‎00006" />
       <updated>1585152058439</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL‎00007" summary="data estimator functions and new file + notebook change">
+      <created>1585474642785</created>
+      <option name="number" value="LOCAL‎00007" />
+      <option name="presentableId" value="LOCAL‎00007" />
+      <updated>1585474642785</updated>
+    </task>
+    <task id="LOCAL‎00008" summary="change on file">
+      <created>1585475042384</created>
+      <option name="number" value="LOCAL‎00008" />
+      <option name="presentableId" value="LOCAL‎00008" />
+      <updated>1585475042384</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -218,12 +227,12 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4980185" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4980185" visible="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4980185" weight="0.31117398" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5019815" side_tool="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4993395" weight="0.32956153" />
@@ -236,7 +245,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added crawler to master" />
     <MESSAGE value="start validate" />
-    <option name="LAST_COMMIT_MESSAGE" value="start validate" />
+    <MESSAGE value="data estimator functions and new file + notebook change" />
+    <MESSAGE value="change on file" />
+    <option name="LAST_COMMIT_MESSAGE" value="change on file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DataValidate.py" />
@@ -257,20 +268,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Operations.py" />
-    <entry file="file://$PROJECT_DIR$/Data_For_Estimate.py">
+    <entry file="file://$PROJECT_DIR$/Data_preperation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="1071">
+          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_preperation.py">
+    <entry file="file://$PROJECT_DIR$/Data_For_Estimate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="60" column="57" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
+        <state relative-caret-position="170">
+          <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

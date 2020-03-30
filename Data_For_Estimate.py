@@ -1,10 +1,8 @@
 import pandas as pd
 from Data_preperation import isNotNaN, precentage, getDataFiles, cleanDataFile, removeNAN
-pd.options.mode.chained_assignment = None
-pd.set_option('display.max_columns', None)
 
 
-def buildCoachTable(df):
+def buildCoachTable(df, diffPrecentage):
     rows = []
     for index, row in df.iterrows():
         for i in range(1, 4):
@@ -19,20 +17,25 @@ def buildCoachTable(df):
                 tempDfRow['Loses'] = int(bal[1])
                 tempDfRow['Percentage'] = precentage(int(bal[0]), int(bal[0]) + int(bal[1]))
                 newBal = row['Balance' + str(i+1)].split('-')
-                tempDfRow['IsSuccessful'] = tempDfRow['Percentage'] < \
-                                         precentage(int(newBal[0]), int(newBal[0]) + int(newBal[1]))
+                tempDfRow['IsSuccessful'] = tempDfRow['Percentage'] <= \
+                                         precentage(int(newBal[0]), int(newBal[0]) + int(newBal[1])) - diffPrecentage
                 rows.append(tempDfRow)
     return pd.DataFrame(rows).set_index('Year')
 
 
 def joinDataFileForVisual(path):
     filesList = getDataFiles(path)
-    dfs = []
+    dfsRegularDiff = []
+    dfsFiveDiff = []
     for file in filesList:
         if 'Visual' not in file and 'Joined' not in file:
             df = cleanDataFile(path+'\\'+file)
             df = removeNAN(df)
-            df = buildCoachTable(df)
-            dfs.append(df)
-    joindDF = pd.concat(dfs)
-    joindDF.to_csv(path+'/Visual DataFrame.csv')
+            dfRegular = buildCoachTable(df, 0)
+            dfFiveDiff = buildCoachTable(df, 5)
+            dfsRegularDiff.append(dfRegular)
+            dfsFiveDiff.append(dfFiveDiff)
+    joindDF = pd.concat(dfsRegularDiff)
+    joindDF.to_csv(path+'/Visual DataFrame Regular.csv')
+    joindDF = pd.concat(dfsFiveDiff)
+    joindDF.to_csv(path + '/Visual DataFrame FiveDiff.csv')
