@@ -15,10 +15,13 @@ def buildCoachTable(df, diffPrecentage):
                 bal = row['Balance' + str(i)].split('-')
                 tempDfRow['Wins'] = int(bal[0])
                 tempDfRow['Loses'] = int(bal[1])
-                tempDfRow['Percentage'] = precentage(int(bal[0]), int(bal[0]) + int(bal[1]))
+                tempDfRow['Total'] = int(bal[0])+int(bal[1])
+                tempDfRow['Percentage1'] = int(precentage(int(bal[0]), int(bal[0]) + int(bal[1])))
                 newBal = row['Balance' + str(i+1)].split('-')
-                tempDfRow['IsSuccessful'] = tempDfRow['Percentage'] <= \
+                tempDfRow['IsSuccessful'] = tempDfRow['Percentage1'] <= \
                                          precentage(int(newBal[0]), int(newBal[0]) + int(newBal[1])) - diffPrecentage
+                bal = row['Balance' + str(i+1)].split('-')
+                tempDfRow['Percentage2'] = int(precentage(int(bal[0]), int(bal[0]) + int(bal[1])))
                 rows.append(tempDfRow)
     return pd.DataFrame(rows).set_index('Year')
 
@@ -39,3 +42,6 @@ def joinDataFileForVisual(path):
     joindDF.to_csv(path+'/Visual DataFrame Regular.csv')
     joindDF = pd.concat(dfsFiveDiff)
     joindDF.to_csv(path + '/Visual DataFrame FiveDiff.csv')
+
+
+joinDataFileForVisual('Data')
