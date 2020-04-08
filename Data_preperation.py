@@ -27,7 +27,8 @@ def removeNAN(df):
 
 
 def winLosCols(df):
-    df['Coach1Wins'] = df['Coach1Lose'] = df['Coach2Wins'] = df['Coach2Lose'] = df['Coach3Wins'] = df['Coach3Lose'] = df['Coach4Wins'] = df['Coach4Lose'] = 0.0
+    df['Coach1Wins'] = df['Coach1Lose'] = df['Coach2Wins'] = df['Coach2Lose'] =\
+        df['Coach3Wins'] = df['Coach3Lose'] = df['Coach4Wins'] = df['Coach4Lose'] = 0.0
     df['Total1'] = df['Total2'] = df['Total3'] = df['Total4'] = 0
     for indx, row in df.iterrows():
         for i in range(1, 5):
@@ -50,7 +51,9 @@ def getPrecentagePerCoache(df):
     for indx, row in df.iterrows():
         for i in range(1,4):
             if isNotNaN(row['Coach' + str(i)]):
-                df['Precentage'+str(i)][indx] = int(precentage(int(row['Coach'+str(i)+'Wins']), int(row['Coach'+str(i)+'Wins'])+int(row['Coach'+str(i)+'Lose'])))
+                df['Precentage'+str(i)][indx] = \
+                    int(precentage(int(row['Coach'+str(i)+'Wins']),
+                                   int(row['Coach'+str(i)+'Wins'])+int(row['Coach'+str(i)+'Lose'])))
     return df
 
 
@@ -58,7 +61,7 @@ def joinDataFile(path):
     filesList = getDataFiles(path)
     dfs = []
     for file in filesList:
-        if 'Joined' not in file:
+        if 'Visual' not in file and 'Joined' not in file:
             df = cleanDataFile(path+'\\'+file)
             df = removeNAN(df)
             df = winLosCols(df)
@@ -66,3 +69,4 @@ def joinDataFile(path):
             dfs.append(df)
     joindDF = pd.concat(dfs)
     joindDF.to_csv(path+'/Joined Data.csv')
+
